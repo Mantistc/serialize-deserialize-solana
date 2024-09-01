@@ -23,6 +23,7 @@ npm install
 ```shell
 ts-node deserialize
 ```
+Serialization part is under development c: 
 - To serialize instruction data:
 ```shell
 ts-node serialize
