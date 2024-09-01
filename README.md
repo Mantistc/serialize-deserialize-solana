@@ -14,7 +14,7 @@ Clone the repository.
 
 ```shell
 git clone https://github.com/Mantistc/serialize-deserialize-solana
-cd https://github.com/Mantistc/serialize-deserialize-solana &&
+cd serialize-deserialize-solana &&
 npm install
 ```
 
