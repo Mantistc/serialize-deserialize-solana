@@ -1,0 +1,17 @@
+{
+  "name": "serialize-deserialize-solana",
+  "version": "1.0.0",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.2",
+    "borsh": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
