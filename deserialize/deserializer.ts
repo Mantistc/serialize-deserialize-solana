@@ -15,7 +15,7 @@ export class DeserializeAccountData {
     this.buffer = buffer;
   }
   /**
-   * Returns a readable Schema value array-like
+   * Returns a readable Schema value
    */
   toReadeableValue(): Schema {
     const decodedValues = deserialize(this.schema, this.buffer);

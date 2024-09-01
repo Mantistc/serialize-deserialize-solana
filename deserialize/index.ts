@@ -11,7 +11,9 @@ import { ACCOUNT_PUBKEY, CONNECTION } from "../utils";
 // all you have to do is:
 // 1. know the rust struct of the account
 // 2. know the address of the account to deserialize
-// 3. run this code xd
+// 3. change/make the schema you need
+// 4. create the interface/type you want to use to read the data
+// 5. run this code xd
 
 async function readSerializedAccountData() {
   // here we get the account byte array data
