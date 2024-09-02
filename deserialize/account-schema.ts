@@ -4,7 +4,7 @@ import { Schema } from "borsh";
 // In this case, i'll deserialize-read the account data of a launch PDA account of the Mantis Protocol launchpad
 // of Smithii using Borsh.
 
-// --- This is the struct of the account in the program ---
+// ---> This is the struct of the account in the program <---
 
 // #[account]
 // pub struct Launch {
