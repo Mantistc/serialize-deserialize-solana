@@ -4,16 +4,17 @@ import { Launch, stateAccountSchema } from "./account-schema";
 import { ACCOUNT_PUBKEY, CONNECTION } from "../utils";
 
 // We are using borsh 2.0.0 schemas to deserialize the account state.
-
-// --- deserializer function ---
-
 // This function can deserialize, format and read the data of any Solana account.
-// all you have to do is:
-// 1. know the rust struct of the account
-// 2. know the address of the account to deserialize
-// 3. change/make the schema you need
-// 4. create the interface/type you want to use to read the data
-// 5. run this code xd
+// You can modify and adjust the function below according to the schema you define.
+
+// ----> all you have to do is the following steps <----- //
+
+// 1) know the rust struct of the account
+// 2) know the address of the account to deserialize
+// 3) change/make the schema based on the rust struct account of the program you want to read account data (account-schema.ts file)
+// 4) create the interface/type you want to use to retrieves the data (account-schema.ts file)
+// 5) adjust the function below to your needs
+// 6) run the code xd
 
 async function readSerializedAccountData() {
   // here we get the account byte array data
