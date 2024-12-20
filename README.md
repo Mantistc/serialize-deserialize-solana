@@ -30,5 +30,5 @@ ts-node serialize
 ```
 
 <p align="center">
-  Made with ❤️ by <a href="https://twitter.com/solscihub" target="_blank">@solscihub</a>
+  Made with ❤️ by <a href="https://twitter.com/lich01_" target="_blank">@lich.sol</a>
 </p>
